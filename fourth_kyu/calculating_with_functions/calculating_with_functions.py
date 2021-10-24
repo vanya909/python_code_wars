@@ -12,34 +12,34 @@ vanya_909
 
 
 def zero(operation = ''):
-    return 0 if operation == '' else int(eval('0 ' + operation))
+    return 0 if operation == '' else eval('0 ' + operation)
 
 def one(operation = ''):
-    return 1 if operation == '' else int(eval('1 ' + operation))
+    return 1 if operation == '' else eval('1 ' + operation)
 
 def two(operation = ''):
-    return 2 if operation == '' else int(eval('2 ' + operation))
+    return 2 if operation == '' else eval('2 ' + operation)
 
 def three(operation = ''):
-    return 3 if operation == '' else int(eval('3 ' + operation))
+    return 3 if operation == '' else eval('3 ' + operation)
 
 def four(operation = ''):
-    return 4 if operation == '' else int(eval('4 ' + operation))
+    return 4 if operation == '' else eval('4 ' + operation)
 
 def five(operation = ''):
-    return 5 if operation == '' else int(eval('5 ' + operation))
+    return 5 if operation == '' else eval('5 ' + operation)
 
 def six(operation = ''):
-    return 6 if operation == '' else int(eval('6 ' + operation))
+    return 6 if operation == '' else eval('6 ' + operation)
 
 def seven(operation = ''):
-    return 7 if operation == '' else int(eval('7 ' + operation))
+    return 7 if operation == '' else eval('7 ' + operation)
 
 def eight(operation = ''):
-    return 8 if operation == '' else int(eval('8 ' + operation))
+    return 8 if operation == '' else eval('8 ' + operation)
 
 def nine(operation = ''):
-    return 9 if operation == '' else int(eval('9 ' + operation))
+    return 9 if operation == '' else eval('9 ' + operation)
 
 
 def plus(operand):
@@ -52,4 +52,4 @@ def times(operand):
     return f'* {operand}'
 
 def divided_by(operand):
-    return f'/ {operand}'
+    return f'// {operand}'
